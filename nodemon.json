@@ -1,0 +1,4 @@
+{
+    "watch": "ts/instant-runoff-voting.ts",
+    "exec": "ts-node ./ts/instant-runoff-voting.ts"
+  }

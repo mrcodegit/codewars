@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "ts-mocha -p tsconfig.json test/**/*.spec.ts",
+    "watch": "nodemon",
     "prepush": "npm run test"
   },
   "repository": {
@@ -21,11 +22,12 @@
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.1",
     "mocha": "^5.2.0",
-    "ts-node-register": "^1.0.0",
     "tsc-watch": "^2.2.1"
   },
   "devDependencies": {
+    "nodemon": "^1.19.1",
     "ts-mocha": "^2.0.0",
+    "ts-node": "^8.3.0",
     "typescript": "^3.1.5"
   }
 }

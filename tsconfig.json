@@ -7,7 +7,6 @@
       "node"
     ],
     "outDir": "./js",
-    "strict": true,
     "baseUrl": "./ts",
     "esModuleInterop": true  
   },
