@@ -6,7 +6,8 @@
   "scripts": {
     "test": "ts-mocha -p tsconfig.json test/**/*.spec.ts",
     "watch": "nodemon",
-    "prepush": "npm run test"
+    "prepush": "npm run test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   "homepage": "https://github.com/voliseq/codewars#readme",
   "dependencies": {
     "@types/mocha": "^5.2.5",
-    "@types/node": "^10.12.1",
+    "@types/node": "^10.17.21",
     "mocha": "^5.2.0",
     "tsc-watch": "^2.2.1"
   },
