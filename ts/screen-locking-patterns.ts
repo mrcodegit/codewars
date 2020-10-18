@@ -40,3 +40,5 @@ function patternsFromfirstDot(visited, jump, firstDot, length): number {
     visited[firstDot] = 0;
     return ways;
 }
+
+console.log('test');

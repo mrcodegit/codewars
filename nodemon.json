@@ -1,4 +1,4 @@
 {
-    "watch": "ts/screen-locking-patterns.ts",
-    "exec": "ts-node ./ts/screen-locking-patterns.ts"
+    "watch": "ts/egg-drop.ts",
+    "exec": "ts-node ./ts/egg-drop.ts"
   }

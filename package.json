@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ts-mocha -p tsconfig.json test/**/*.spec.ts",
+    "test": "ts-mocha -p tsconfig.json test/**/egg-drop.spec.ts --watch",
     "watch": "nodemon",
     "prepush": "npm run test",
     "build": "tsc"
